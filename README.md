@@ -43,4 +43,4 @@ BSD
 
 Author Information
 ------------------
-Made by @sergi-canas
+Made by @xussof
