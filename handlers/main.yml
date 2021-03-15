@@ -1,0 +1,17 @@
+#- name: Restart docker
+#  become: true
+#  service:
+#    name: docker
+#    state: restarted
+
+#- name: Restart machine
+#  become: true
+#  become_method: sudo
+#  shell: sleep 5 && shutdown -r now "Reboot triggered by Ansible script"
+#  async: 1
+#  poll: 0
+#  ignore_errors: true
+
+- name: Restart docker
+  debug:
+    msg: "Remember to restart machine to allow normal user to execute docker without sudo"

@@ -1,0 +1,5 @@
+---
+- src: git@github.com:xussof/software_azure-cli
+  scm: git
+  version: master
+  name: software_azure-cli
